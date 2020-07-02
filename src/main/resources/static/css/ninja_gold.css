@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.gold_amount{
+    width: 70px;
+    height: 25px;
+    border: 1px solid #000000;
+    margin-left: 10px;
+}
+
+.activities {
+    width: 92%;
+    height: 200px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #000000;
+    overflow-y: scroll;
+}
+
+.boxes {
+    border: 1px solid #000000;
+    padding: 30px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.boxes:first-of-type {
+    margin: 0px;
+}
+
+button {
+    margin: 10px;
+    box-shadow: 2px 2px 3px #000000;
+}
+
+li {
+	list-style-type: none;
+}
